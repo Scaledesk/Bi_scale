@@ -4469,6 +4469,14 @@ body .tz-rotate-skill p{
     -ms-transform: rotateY(0deg);
     opacity: 1;
 }
+.tz-bestsellers-item:hover .tz-bestsellers-content1{
+    transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    opacity: 1;
+}
 .bestsellers-thumb img{
     width: 100%;
     height: 100%;
@@ -4500,9 +4508,41 @@ body .tz-rotate-skill p{
     -o-transition: all 0.3s linear 0s;
     opacity: 0;
 }
+
+
+.tz-bestsellers-content1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    padding: 0 20px;
+    background: rgba(0, 0, 0, 0.6);
+    transform: rotateY(60deg);
+    -moz-transform: rotateY(60deg);
+    -webkit-transform: rotateY(0deg);
+    -o-transform: rotateY(60deg);
+    -ms-transform: rotateY(60deg);
+    transform-origin: left 0 0;
+    -moz-transform-origin: left 0 0;
+    -webkit-transform-origin: left 0 0;
+    -ms-transform-origin: left 0 0;
+    -o-transform-origin: left 0 0;
+    transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.5s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    opacity: 0;
+}
 .tz-bestsellers-item:hover .tz-bestsellers-content{
     opacity: 1;
 }
+.tz-bestsellers-item:hover .tz-bestsellers-content1{
+    opacity: 1;
+}
+
 .tz-bestsellers-item h6{
     padding: 24px 0 2px;
     margin: 0;
@@ -4544,7 +4584,18 @@ body .tz-rotate-skill p{
     margin: 0;
     text-align: left;
 }
+
+.tz-bestsellers-item .tz-bestsellers-content1  h6{
+    padding: 29px 0 15px;
+    margin: 0;
+    text-align: left;
+}
 .tz-bestsellers-item .tz-bestsellers-content  h6 a{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ffffff;
+}
+.tz-bestsellers-item .tz-bestsellers-content1  h6 a{
     text-transform: uppercase;
     font-weight: 600;
     color: #ffffff;
@@ -4561,6 +4612,24 @@ body .tz-rotate-skill p{
     margin-top: 60px;
 }
 .tz-bestsellers-item .tz-bestsellers-content p{
+    color: #d4d4d4;
+    font-family: 'Raleway',sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+    padding: 10px 0;
+    text-decoration: none;
+    font-style: italic;
+    text-align: left;
+    transition: all 0.1s linear 0s;
+    -moz-transition: all 0.1s linear 0s;
+    -webkit-transition: all 0.1s linear 0s;
+    -ms-transition: all 0.1s linear 0s;
+    -o-transition: all 0.1s linear 0s;
+}
+
+.tz-bestsellers-item .tz-bestsellers-content1 p{
     color: #d4d4d4;
     font-family: 'Raleway',sans-serif;
     font-size: 13px;
