@@ -7430,8 +7430,9 @@ body .blog-gird-item2 .tzblog-meta  a{
 }
 .tzshopcat-description img{
     width: 100%;
-    margin-top: 50px;
+   /* margin-top: 50px;*/
     margin-bottom: 13px;
+    max-height: 336px;
 }
 .tzshopcat-description p{
     color: #000000;
@@ -10529,7 +10530,7 @@ body.home-rtl .tz-recent-post li{
         margin: 0 0 30px;
     }
     .tzcategory-shop-wrap {
-        padding: 10px 0 40px;
+      /*  padding: 10px 0 40px;*/
     }
     .shop_table thead tr th{
         padding: 18px 10px;
