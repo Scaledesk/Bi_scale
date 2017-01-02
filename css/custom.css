@@ -741,6 +741,11 @@ input[type="file"]{
     background-color: #D3B670;
 }
 
+.border-no{
+    border: 1px solid #f5f5f5;
+   padding:12px;
+
+}
 
 
 .blog-item .h4style {
