@@ -7268,7 +7268,7 @@ body .blog-gird-item2 .tzblog-meta  a{
 
 .tzcategory-shop-wrap{
     border-top: 1px solid #eeeeee;
-    padding: 54px 0 74px 0;
+    padding: 112px 0 74px 0;
 }
 .tzcategory-shop-wrap .laster-shop-item {
     margin-top: 49px;
@@ -9238,7 +9238,7 @@ body .kfrontstats .kcol-mid{
 }
 .joom-weblink {
     background: none repeat scroll 0 0 #fff;
-    margin: 138px 0 0;
+    margin: 40px 0 0;
     padding: 56px 75px 88px;
 }
 .joom-weblink ul{
@@ -9258,6 +9258,7 @@ body .kfrontstats .kcol-mid{
     padding: 0;
     margin: 0;
 }
+
 .joom-weblink ul li h6 a{
     color: #f17f5f;
     font-family: "Raleway",sans-serif;
@@ -9285,6 +9286,7 @@ body .kfrontstats .kcol-mid{
     text-decoration: none !important;
 
 }
+
 /*-------------------joom-newfeed----------------*/
 .tzpage-newfeed{
     background: none repeat scroll 0 0 #eeeeee;
@@ -10171,6 +10173,19 @@ body.home-rtl .tz-recent-post li{
     text-align: right;
 }
 
+
+
+
+/*gari-css*/
+
+.blog-img-style{
+     width:260px;
+    max-width: 100%;
+}
+
+
+
+
 /**
 * 8.0 - Responsive
 * -----------------------------------------------------------------------------
@@ -10530,7 +10545,7 @@ body.home-rtl .tz-recent-post li{
         margin: 0 0 30px;
     }
     .tzcategory-shop-wrap {
-      /*  padding: 10px 0 40px;*/
+     /*   padding: 80px 0 74px 0;*/
     }
     .shop_table thead tr th{
         padding: 18px 10px;
