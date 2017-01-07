@@ -398,7 +398,7 @@ Tags: ajax contact form, animation, blog, bootstrap, business, corporate, css3, 
 .tz-header ul.nav-collapse > li{
     float: left;
     position: relative;
-    display: block;
+  /*  display: block;*/
     padding: 18px 25px;
 }
 .tz-header ul.nav-collapse li a{
