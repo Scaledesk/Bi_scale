@@ -259,7 +259,7 @@ Tags: ajax contact form, animation, blog, bootstrap, business, corporate, css3, 
         margin-left: 20px;
         padding-top: 11px;
     }
-    body .tz-search{
+    body .tz-search1{
         padding-top: 11px;
     }
     .tz_icon_menu i {
@@ -455,14 +455,14 @@ body .tz-header3 ul.nav-collapse li a:after{
     -ms-transform: scale(1);
     -o-transform: scale(1);
 }
-.tz-search{
+.tz-search1{
     background: none;
     border: none;
     display: block;
     margin-left: 25px;
     padding-top: 0;
 }
-.tz-search i{
+.tz-search1 i{
     color: #fff;
     font-size: 14px;
     line-height: 65px;
@@ -562,7 +562,7 @@ body .tz-header3{
 body .tz-header3 ul.nav-collapse li a{
     color: #000000;
 }
-.tz-header3 .tz-search i{
+.tz-header3 .tz-search1 i{
     color: #000000;
 }
 /*------------Header 4----------*/
@@ -591,7 +591,7 @@ body .tz-header3 ul.nav-collapse li a{
 .tz-header4 .tz-logo{
     margin: 11px 0;
 }
-.tz-header4 .tz-search{
+.tz-header4 .tz-search1{
     padding-top: 5px;
 }
 .tz-header4 i.fa-search {
@@ -633,7 +633,7 @@ body .tz-header5{
 }
 
 
-.tz-header5 .tz-search i{
+.tz-header5 .tz-search1 i{
     line-height: 53px;
     color: #111111;
 }
@@ -663,7 +663,7 @@ body .tz-header5{
     display: block;
     position: relative;
 }
-.tz-header .tz-header5-content .tz-search{
+.tz-header .tz-header5-content .tz-search1{
     padding-top: 5px;
 }
 /*------------------Menu for Home 4------------*/
@@ -10145,7 +10145,7 @@ body.home-rtl .tzwidget-contact,
 body.home-rtl .tz-recent-post li{
     text-align: right;
 }
-.home-rtl .tz-search{
+.home-rtl .tz-search1{
     float: left !important;
     margin-left: 0;
     margin-right: 20px;
@@ -10262,10 +10262,10 @@ body.home-rtl .tz-recent-post li{
         margin: 30px 15px 0;
         float: left !important;
     }
-    body header .tz-search {
+    body header .tz-search1 {
         padding-top: 3px;
     }
-    body header .tz-search i{
+    body header .tz-search1 i{
         line-height: 60px;
     }
     body header .tz_icon_menu{
@@ -11053,7 +11053,7 @@ body.home-rtl .tz-recent-post li{
         line-height: 48px;
         padding-top: 10px;
     }
-    .tz-header4 .tz-search {
+    .tz-header4 .tz-search1 {
         margin-right: 10px;
     }
     .nav-child{
@@ -11233,10 +11233,10 @@ body.home-rtl .tz-recent-post li{
         margin: 30px 15px 0;
         float: left !important;
     }
-    body header .tz-search {
+    body header .tz-search1 {
         padding-top: 3px;
     }
-    body header .tz-search i{
+    body header .tz-search1 i{
         line-height: 60px;
     }
     body header .tz_icon_menu{
@@ -11551,7 +11551,7 @@ body.home-rtl .tz-recent-post li{
         line-height: 48px;
         padding-top: 10px;
     }
-    .tz-header4 .tz-search {
+    .tz-header4 .tz-search1 {
         margin-right: 10px;
     }
     .nav-child ul li ul {

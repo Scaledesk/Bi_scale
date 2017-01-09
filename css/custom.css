@@ -747,6 +747,20 @@ input[type="file"]{
 
 }
 
+.border-no1{
+    border: 1px solid #000000;
+    padding:12px;
+
+}
+
+.fa:focus{
+    outline:none;
+}
+
+.tz-search1:focus{
+    outline:none;
+}
+
 
 .blog-item .h4style {
     padding: 0 0 0;
